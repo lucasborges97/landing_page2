@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-1: #2E3440;
+    --color-2: #6391EC;
+    --color-3: #A7BDE8;
+    --color-4: #2C4069;
+    --color-5: #8293B5;
+}
+
+span {
+    color: var(--color-4);
+}
+
+body {
+    background-color: var(--color-2);
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+a {
+    color: var(--color-1);
+    padding: 10px;
+}
+
+a:hover {
+    color: var(--color-3);
+}
+
+p {
+    text-align: justify;
+    color: var(--color-1);
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    width: 40%;
+}
+
+input {
+    margin-top: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 40px;
+}
+
+input[type="submit"] {
+    background-color: var(--color-1);
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--color-4);
+}
+
+#icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    justify-content: center;
+}
+#icons i {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
